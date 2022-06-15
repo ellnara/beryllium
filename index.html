@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>Beryllium</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Beryllium</a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Services
+
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="#">Web Design</a>
+                  <a class="dropdown-item" href="#">eCommerse</a>
+                  <a class="dropdown-item" href="#">Branding</a>
+                  <a class="dropdown-item" href="#">API</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Dropdown
+
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="#">HTML5</a>
+                  <a class="dropdown-item" href="#">CSS3</a>
+                  <a class="dropdown-item" href="#">Sass</a>
+                  <a class="dropdown-item" href="#">jQuery</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="carousel-slide">
+        <div class="container">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li
+                data-target="#myCarousel"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="./assets/images/slider_1.jpg" alt="architecture" />
+                <div>
+                  <h3>Architecture #1</h3>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./assets/images/slider_2.jpg" alt="architecture" />
+                <div>
+                  <h3>Architecture #1</h3>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./assets/images/slider_3.jpg" alt="architecture" />
+                <div>
+                  <h3>Architecture #1</h3>
+                </div>
+              </div>
+            </div>
+            <!-- Left and right controls -->
+            <a
+              class="left carousel-control"
+              href="#myCarousel"
+              data-slide="prev"
+            >
+              <i class="fa-solid fa-arrow-left"></i>
+            </a>
+            <a
+              class="right carousel-control"
+              href="#myCarousel"
+              data-slide="next"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="work">
+        <div class="container">
+          <div class="work-heading">
+            <h2>WORK</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Perferendis assumenda maxime voluptatem illo ut quia? Voluptas,
+              iusto excepturi officia quia omnis delectus illum ut ducimus
+              reiciendis, consequatur tenetur iste quo.
+            </p>
+          </div>
+          <div class="row">
+            <div class="place-cards">
+              <div class="place-cards-item">
+                <img src="./assets/images/img_1.jpg" alt="" />
+                <h2>
+                  <a href="">New York Arena</a>
+                </h2>
+                <span>New York</span>
+              </div>
+              <div class="place-cards-item">
+                <img src="./assets/images/img_2.jpg" alt="" />
+                <h2>
+                  <a href="">Eagle Park</a>
+                </h2>
+                <span>London</span>
+              </div>
+              <div class="place-cards-item">
+                <img src="./assets/images/img_3.jpg" alt="" />
+                <h2>
+                  <a href="">Nationals Park</a>
+                </h2>
+                <span>Paris, France</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
